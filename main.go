@@ -63,16 +63,20 @@ func makeMeal() (meal []string, err error) {
 
 func main() {
 
-	fmt.Println("\n-----------------------------------------------------")
-	fmt.Println("\n-------------------Paleo Diet Matrix-----------------")
-	// make the meal
+	fmt.Println("\n-------------------Paleo Diet Food Matrix Meal Picker-----------------")
+	fmt.Println("\nInspired by https://robbwolf.com/wp-content/uploads/2015/04/thePaleoSolution_FoodMatrix.pdf")
+	fmt.Println("\nThis app is not endorsed by or used by Robb Wolf. No formal association intended, Food matrix is copyright Robb Wolf.")
+	fmt.Println("\nVisit the README file for more information.")
+	fmt.Println("\n----------------------------------------------------------------------")
+	// get the meal ingredients
 	result, _ := makeMeal()
-	fmt.Println("\nHere's your meal! Get a frying pan. Add the following:")
+	fmt.Println("\n Here's your meal! Get a frying pan. Add the following:")
 	// loop through the items in the meal
 	for _, ingredient := range result {
 		// print them out. this is what you will eat!
-		fmt.Println(ingredient)
+		fmt.Println("\n", ingredient)
 	}
-	fmt.Println("\nFry until your protein is cooked. Eat. Enjoy!")
-	fmt.Println("\n----------------------------------------------------")
+	fmt.Println("\nFry up until your protein is cooked. Eat and enjoy.")
+	fmt.Println("\n----------------------------------------------------------------------")
+	fmt.Println("\n----------------------------------------------------------------------")
 }
