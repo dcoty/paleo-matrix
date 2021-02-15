@@ -4,8 +4,8 @@
 ### To be transparent, this is just a little goofy Golang application that randomizes things from several lists and gives you a recipe you can cook up and eat.
 - It's nothing special! This was more for me to get some chops in Go programming
 - It's not perfect! There are several ways to refactor this and make it better
-- This stems from "The paleo matrix" by Robb Wolf. Go check him out at https://robbwolf.com/
-- DISCLAIMER: this little app is not endorsed or used in any way by Robb Wolf or anyone associated to him. 
+- This program is inspired by the paleo food matrix: https://robbwolf.com/wp-content/uploads/2015/04/thePaleoSolution_FoodMatrix.pdf
+- DISCLAIMER: This app is not endorsed or used in any way by Robb Wolf or anyone associated to him. All credit to Robb Wolf for the food matrix and the PDF above. I just stood on the shoulders of giants here.
 
 ### How to modify
  - There are several text files in the config folder: meats, oils, spices, and veggies( as .txt files). you can add/remove items from each list to fit your needs
