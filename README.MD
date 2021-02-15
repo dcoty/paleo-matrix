@@ -1,7 +1,7 @@
 # The Paleo Matrix 
 ## A program that decides what meals you eat
 
-### to be transparent, it's just a little goofy go application that randomizes things from several lists and gives you a recipe you can cook up and eat.
+### To be transparent, this is just a little goofy Golang application that randomizes things from several lists and gives you a recipe you can cook up and eat.
 - It's nothing special! This was more for me to get some chops in Go programming
 - It's not perfect! There are several ways to refactor this and make it better
 - This stems from "The paleo matrix" by Robb Wolf. Go check him out at https://robbwolf.com/
