@@ -68,7 +68,7 @@ func main() {
 	fmt.Println("\nThis app is not endorsed by or used by Robb Wolf. No formal association intended, Food matrix is copyright Robb Wolf.")
 	fmt.Println("\nVisit the README file for more information.")
 	fmt.Println("\n----------------------------------------------------------------------")
-	// get the meal ingredients
+	// get the meal ingredients.
 	result, _ := makeMeal()
 	fmt.Println("\n Here's your meal! Get a frying pan. Add the following:")
 	// loop through the items in the meal
